@@ -41,3 +41,4 @@ main: clean
 main_sanitize: clean
 	@$(CC) $(FLAGS) $(STANDART) main.cpp -o Main $(SANITIZE)
 	@echo "\033[32mMain sanitize done \033[0m"
+
